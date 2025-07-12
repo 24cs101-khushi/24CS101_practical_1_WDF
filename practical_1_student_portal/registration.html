@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Registration - CHARUSAT</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <center>
+    <img src="charusat logo.png" alt="CHARUSAT Logo" width="700" height="90"><br>
+    <h1>CHARUSAT Student Portal</h1>
+    <h2>Course Registration Form</h2>
+  </center>
+
+  <hr>
+
+  <!-- Navigation Bar -->
+  <center>
+    <table border="0" cellpadding="8">
+      <tr>
+        <td><a href="homepage.html">Home</a></td>
+        <td><a href="login.html">Login</a></td>
+        <td><a href="dashboard-student.html">Student Dashboard</a></td>
+        <td><a href="dashboard-admin.html">Admin Dashboard</a></td>
+        <td><a href="profile.html">Profile</a></td>
+        <td><a href="courses.html">Courses</a></td>
+        <td><a href="registration.html">Registration</a></td>
+        <td><a href="grades.html">Grades</a></td>
+        <td><a href="announcements.html">Announcements</a></td>
+        <td><a href="feedback.html">Feedback</a></td>
+        <td><a href="logout.html">Logout</a></td>
+      </tr>
+    </table>
+  </center>
+
+  <hr><br>
+
+  <!-- Registration Form -->
+  <center>
+    <form action="submit-registration.html" method="post">
+      <table cellpadding="10">
+        <tr>
+          <td>Student Name:</td>
+          <td><input type="text" name="studentName" required></td>
+        </tr>
+        <tr>
+          <td>Student ID:</td>
+          <td><input type="text" name="studentId" required></td>
+        </tr>
+        <tr>
+          <td>Department:</td>
+          <td><input type="text" name="department" required></td>
+        </tr>
+        <tr>
+          <td>Semester:</td>
+          <td>
+            <select name="semester" required>
+              <option value="">Select</option>
+              <option value="1">1st</option>
+              <option value="2">2nd</option>
+              <option value="3">3rd</option>
+              <option value="4">4th</option>
+              <option value="5">5th</option>
+              <option value="6">6th</option>
+              <option value="7">7th</option>
+              <option value="8">8th</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Course 1:</td>
+          <td><input type="text" name="course1" required></td>
+        </tr>
+        <tr>
+          <td>Course 2:</td>
+          <td><input type="text" name="course2"></td>
+        </tr>
+        <tr>
+          <td>Course 3:</td>
+          <td><input type="text" name="course3"></td>
+        </tr>
+        <tr>
+          <td>Course 4:</td>
+          <td><input type="text" name="course4"></td>
+        </tr>
+        <tr>
+          <td>Course 5:</td>
+          <td><input type="text" name="course5"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit Registration">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </center>
+
+  <br><hr><br>
+
+  <!-- Footer -->
+  <center>
+    <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+  </center>
+
+</body>
+</html>
